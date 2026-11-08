@@ -375,8 +375,6 @@ strong { color: var(--text); font-weight: 600; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* the source photo has a ring baked in — zoom to hide it */
-  transform: scale(1.16);
 }
 
 .term {

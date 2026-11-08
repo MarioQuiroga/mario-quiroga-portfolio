@@ -1,0 +1,11 @@
+{
+  // Nombre del Worker: debe coincidir con el nombre que le pongas en el dashboard de Cloudflare.
+  "name": "mario-quiroga-portfolio",
+  "compatibility_date": "2026-05-01",
+
+  // Worker "solo assets": Cloudflare sirve /public directo desde su CDN, sin código de servidor.
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}

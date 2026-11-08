@@ -94,5 +94,5 @@ No Terraform needed for a single Worker; `wrangler.jsonc` already is the infrast
 ## Contact
 
 - Email: marioquiro17@gmail.com
-- LinkedIn: [marioquiroga-1748b3193](https://www.linkedin.com/in/marioquiroga-1748b3193)
+- LinkedIn: [mario-quiroga-1748b3193](https://www.linkedin.com/in/mario-quiroga-1748b3193)
 - GitHub: [MarioQuiroga](https://github.com/MarioQuiroga)

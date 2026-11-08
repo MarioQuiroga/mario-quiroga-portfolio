@@ -3,6 +3,8 @@
 Personal landing page / portfolio for **Mario D. A. Quiroga**, Full Stack Engineer.
 Plain HTML, CSS and JavaScript (no framework, no build step) served by **Cloudflare Workers Static Assets**.
 
+### 🌐 Live site: **[mario-quiroga-portfolio.marioquiro17.workers.dev](https://mario-quiroga-portfolio.marioquiro17.workers.dev/)**
+
 - Bilingual: English / Spanish (auto-detected from the browser, toggle in the nav)
 - Dark / light theme (follows the OS, toggle in the nav)
 - Responsive, accessible (skip link, focus styles, `prefers-reduced-motion`)
@@ -57,7 +59,8 @@ Open http://localhost:8787.
    - **Project name:** `mario-quiroga-portfolio` (must match `name` in `wrangler.jsonc`)
    - **Build command:** _(leave empty)_
    - **Deploy command:** `npx wrangler deploy`
-4. Deploy. The site will be live at `https://mario-quiroga-portfolio.<your-subdomain>.workers.dev`.
+4. Deploy. The site goes live at `https://<worker-name>.<account-subdomain>.workers.dev` —
+   this one is at https://mario-quiroga-portfolio.marioquiro17.workers.dev/.
 
 From then on, every `git push` to `main` redeploys the site.
 
